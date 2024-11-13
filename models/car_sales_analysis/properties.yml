@@ -1,0 +1,24 @@
+models:
+  - name: "car_sales_by_body"
+    config:
+      materialized: "view"
+
+  - name: "car_sales_by_company"
+    config:
+      materialized: "table"
+
+  - name: car_sales_by_state
+    config:
+      materialized: "view"
+
+  - name: car_sales_by_transmission
+    config:
+      materialized: "view"
+
+  - name: car_sales_by_year
+    config:
+      materialized: "table"
+
+  - name: payment_by_sales
+    config:
+      materialized: "table"
